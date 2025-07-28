@@ -37,4 +37,21 @@ A smart web application that predicts the likelihood of heart disease based on u
 ---
 
 ## 🗂️ Project Structure
-
+HealthWise-Project/
+│
+├── app.py                  # Streamlit frontend for user interaction
+├── train_model.py          # Script to train and evaluate the Random Forest model
+├── preprocessing.py        # Contains data cleaning and preprocessing functions
+├── make_predictions.py     # Makes batch predictions on new or existing data
+├── model_building.py       # Model evaluation script (e.g., ROC curve, AUC score)
+│
+├── models/                 # Stores trained models and related assets
+│   ├── heart_disease_model.pkl     # Trained Random Forest model
+│   └── feature_columns.pkl         # Feature column names used during training
+│
+├── data/                   # Contains input and output data files
+│   ├── cleaned_heart.csv           # Cleaned and preprocessed heart dataset
+│   └── predicted_heart.csv         # Prediction results (generated after inference)
+│
+├── requirements.txt        # List of required Python libraries for setup
+└── README.md               # Project documentation and usage guide

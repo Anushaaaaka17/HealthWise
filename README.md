@@ -37,7 +37,7 @@ A smart web application that predicts the likelihood of heart disease based on u
 ---
 
 ## 🗂️ Project Structure
-'''HealthWise-Project/
+```HealthWise-Project/
 │
 ├── app.py                  # Streamlit frontend for user interaction
 ├── train_model.py          # Script to train and evaluate the Random Forest model
